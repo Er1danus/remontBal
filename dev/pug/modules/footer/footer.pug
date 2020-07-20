@@ -1,0 +1,44 @@
+footer.footer
+  .container
+    .footer__wrapper
+      .footer__el
+        .footer__callback 
+          img(src="static/images/general/logo.png")
+          a(href='').call__btn.footer__btn Заказать звонок
+      .footer__el
+        .footer__title Меню
+        .footer__menu
+          ul.footer__list
+            li.footer__item
+              a(href='').footer__link О компании
+            li.footer__item  
+              a(href='').footer__link Услуги
+            li.footer__item  
+              a(href='').footer__link Купить продать
+            li.footer__item
+              a(href='').footer__link Наши работы
+      .footer__el
+        .footer__title Контакты
+        .footer__contacts-wrapper
+          .contacts__item.contacts__adress
+            +icon('location', 'contacts__icon')
+            .contacts__adress-text
+              span.contacts__adress-main Московская обл., Балашиха, ул. Владимирская 137.
+              span Горьковское шоссе, (М7-28км)
+          .contacts__item.contacts__adress
+            +icon('location', 'contacts__icon')
+            .contacts__adress-text
+              span.contacts__adress-main Московская обл., Реутов, Проспект Мира вл.56, 
+          .contacts__item
+            +icon('phone', 'contacts__icon')
+            a(tel='+7 (495) 740-91-85').footer__contacts-text +7 (495) 740-91-85
+          .contacts__item.contacts__email
+            +icon('email', 'contacts__icon')
+            a(href="info@auto-cm.ru").footer__contacts-text info@auto-cm.ru
+      .footer__el
+        .mini-map
+          .mini-map__wrapper
+            img(src="static/images/content/map.png").mini-map__img
+    .footer__business-web
+      img(src="static/images/content/business-web.png").business-web__logo  
+    

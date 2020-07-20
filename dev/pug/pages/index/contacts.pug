@@ -1,0 +1,31 @@
+section.s-contacts
+  .container
+    .contacts
+      .contacts__group
+        h5.section-title.contacts__title Контакты
+        .contacts__item.contacts__phone
+          +icon('phone', 'contacts__icon')
+          a(href='+7 (495) 740-91-85').contacts__text +7 (495) 740-91-85
+        .contacts__item.contacts__email
+          +icon('email', 'contacts__icon')
+          a(href="info@auto-cm.ru").contacts__text info@auto-cm.ru
+        .contacts__item.contacts__adress
+          +icon('adress', 'contacts__icon')
+          .contacts__adress-text
+            span.contacts__adress-main Московская обл., Реутов, Проспект Мира вл.56, 
+            span (по проспекту Мира в сторону Балашихинского моста, после заправки ТатНефть с права)(в навигаторе СитиМотрс Реутов пр-т Мира)
+        .contacts__item.contacts__adress
+          +icon('adress', 'contacts__icon')
+          .contacts__adress-text
+            span.contacts__adress-main Московская обл., Балашиха, ул. Владимирская 137.
+            span Горьковское шоссе, (М7-28км)
+      .contacts__form
+        form(id='contacts-form')
+            h5.section-title.contacts__title Задайте вопрос
+            .contacts__input-wrapper
+              input(type='text' name='Ваше имя' placeholder='Введите ваше имя' ).contacts__input-name
+            .contacts__input-wrapper
+              input(type='text' name='Ваша фамилия' placeholder='Введите вашу фамилию').contacts__input-lastname
+            .contacts__input-wrapper
+              textarea(type='text' name='Ваш вопрос' placeholder='Напишите ваш вопрос').contacts__input-textarea
+            button.contacts__btn Отправить

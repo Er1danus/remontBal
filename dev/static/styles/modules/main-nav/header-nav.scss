@@ -1,0 +1,13 @@
+.header-nav {
+  &__list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    color: $white;
+  }
+}

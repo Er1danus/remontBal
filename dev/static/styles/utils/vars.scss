@@ -1,0 +1,27 @@
+// Colors
+$white: #ffffff;
+$black: #000000;
+$secondary-color: #C4C4C4;
+$primary-color: #FF9035;
+$grey: #9A9A9A;
+$btn-bg-color: #F6F8F9;
+$main-bg-color: #1F1F1F;
+
+// Sizes
+$base-font-size: 16px;
+
+$breakpoints: (
+  "phone"       : 400px,
+  "phone-wide"  : 480px,
+  "phablet"     : 560px,
+  "tablet-small": 640px,
+  "tablet"      : 768px,
+  "tablet-wide" : 1024px,
+  "desktop"     : 1248px,
+  "desktop-wide": 1440px
+);
+
+$content-size: 1333px;
+
+// Fonts
+$main-font: "Geometria", Arial, sans-serif;

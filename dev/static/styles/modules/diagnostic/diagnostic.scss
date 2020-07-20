@@ -1,0 +1,17 @@
+.diagnostic {
+  &__item {
+    display: flex;
+    align-items: top;
+  }
+  &__icon {
+    @include size(35px);
+    padding-right: 19px;
+    fill: $grey;
+  }
+  &__text, &__desc {
+    line-height: 29px;
+    font-size: 18px;
+    max-width: 625px;
+    padding-bottom: 30px;
+  }
+}

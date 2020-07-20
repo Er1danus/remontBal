@@ -1,0 +1,25 @@
+section.s-map
+  .map__wrapper
+    img(src="static/images/content/map.png").map__img
+    +icon('map-location', 'map__icon-first')
+    +icon('map-location', 'map__icon-second')
+    .map__info
+      .map__contacts-wrapper
+        .contacts__item
+          +icon('phone', 'contacts__icon')
+          a(href='+7 (495) 740-91-85').contacts__text.map__text +7 (495) 740-91-85
+        .contacts__item.contacts__email
+          +icon('email', 'contacts__icon')
+          a(href="info@auto-cm.ru").contacts__text.map__text info@auto-cm.ru
+        .contacts__item.contacts__adress
+          +icon('adress', 'contacts__icon')
+          .contacts__adress-text
+            span.contacts__adress-main Московская обл., Реутов, Проспект Мира вл.56, 
+            span (по проспекту Мира в сторону Балашихинского моста, после заправки ТатНефть с права)(в навигаторе СитиМотрс Реутов пр-т Мира)
+        .contacts__item.contacts__adress
+          +icon('adress', 'contacts__icon')
+          .contacts__adress-text
+            span.contacts__adress-main Московская обл., Балашиха, ул. Владимирская 137.
+            span Горьковское шоссе, (М7-28км)
+
+          

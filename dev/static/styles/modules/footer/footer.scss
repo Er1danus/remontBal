@@ -1,0 +1,81 @@
+footer { flex: 0 0 auto; }
+.footer {
+  background-color: $main-bg-color;
+  &__link {
+    color: $white;
+    text-decoration: none;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-top: 75px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 80px;
+  }
+  &__btn {
+    color: $white;
+    text-decoration: none;
+    text-align: center;
+  }
+  &__callback {
+    display: flex;
+    flex-direction: column;
+    img {
+      padding-bottom: 30px;
+    }
+  }
+  &__contacts {
+    &-text {
+      font-size: 16px;
+      line-height: 26px;
+      color: $white;
+      text-decoration: none;
+    }
+    &-wrapper {
+      font-size: 16px;
+      line-height: 26px;
+      display: flex;
+      flex-direction: column;
+      color: $white;
+      max-width: 320px;
+      .contacts {
+        &__item {
+          padding-bottom: 10px;
+          margin: 0;
+        }
+        &__icon {
+          @include size(29px);
+        }
+      }
+    }
+  }
+  &__title {
+    font-size: 28px;
+    line-height: 35px;
+    padding-bottom: 30px;
+  }
+  &__item {
+    padding-bottom: 10px;
+  }
+}
+
+.mini-map {
+  &__wrapper {
+    width: 415px;
+    height: 286px;
+    max-width: 330px;
+  }
+  &__img {
+    border-radius: 15px;
+  }
+}
+
+.business-web {
+  &__logo {
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 178px;
+    height: 26px;
+  }
+}

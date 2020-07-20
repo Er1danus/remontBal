@@ -1,0 +1,95 @@
+header {
+  flex: 0 0 auto;
+}
+.header {
+  &__wrapper {
+    height: 100vh;
+    background-image: url('../images/content/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__main {
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 33px;
+  }
+  &__menu {
+    margin-bottom: 180px;
+  }
+  &__item {
+    display: flex;
+    color: $white;
+  }
+  &__label {
+    display: block;
+    line-height: 21px;
+  }
+  &__text {
+    display: block;
+    line-height: 20px;
+    text-decoration: none;
+    color: $white;
+  }
+  &-adress {
+    &__icon {
+      height: 32px;
+      width: 26px;
+      fill: $primary-color;
+      margin-right: 15px;
+    }
+  }
+  &-email {
+    &__icon {
+      height: 27px;
+      width: 34px;
+      fill: $primary-color;
+      margin-right: 15px;
+    }
+  }
+  &-work-time {
+    &__icon {
+      height: 30px;
+      width: 31px;
+      fill: $primary-color;
+      margin-right: 15px;
+    }
+  }
+  &-phone {
+    &__icon {
+      height: 31px;
+      width: 30px;
+      fill: $primary-color;
+      margin-right: 15px;
+    }
+  }
+  &__title {
+    font-size: 65px;
+    line-height: 82px;
+    font-weight: 700;
+    padding-bottom: 36px;
+  }
+  &__subtitle {
+    font-size: 28px;
+    line-height: 35px;
+    color: $primary-color;
+    padding-bottom: 36px;
+  }
+  &__description {
+    font-size: 18px;
+    line-height: 29px;
+    width: 684px;
+    padding-bottom: 75px;
+    position: relative;
+  }
+  &__mouse {
+    @include size(60px);
+    margin: 0 auto;
+    fill: $secondary-color;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 135px;
+  }
+}
